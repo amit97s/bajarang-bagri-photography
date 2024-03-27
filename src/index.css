@@ -1,11 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap")
-  @tailwind base;
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Cinzel:wght@400..900&display=swap");
+
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
   overflow-x: hidden;
-  font-family: "Hanken Grotesk", sans-serif;
+  font-family: "Hanken Grotesk", "Cinzel" sans-serif;
 }
 
 /* body {
@@ -29,5 +30,5 @@ body {
   z-index: 1;
 }
 button.slick-arrow.slick-next::before {
-  color: red;
-} */
+  color: red;
+} */

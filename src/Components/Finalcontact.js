@@ -73,16 +73,20 @@ const Finalcontact = () => {
             style={{ filter: "brightness(50%)" }}
             src={img}
             alt="img"
-            className="w-screen h-[25rem] lg:h-[46rem] object-cover   "
+            className="w-screen h-[25rem] lg:h-[47rem] object-cover   "
           />
-          <div className=" relative w-full top-[2px] right-0 bg-white lg:shadow-lg rounded-md lg:w-[28rem] p-4 lg:absolute lg:right-10 lg:top-7  ">
+          <div className=" relative w-full top-[2px] right-0 bg-white lg:shadow-lg rounded-md lg:w-[32rem] p-4 lg:absolute lg:right-10 lg:top-7  ">
             <form
               className="flex flex-col gap-1.5"
               onSubmit={sendEmail}
               ref={form}
             >
-              <h1 className="text-lg font-bold">
-                Get in Touch with bagri photography
+              <h1 className="text-lg text-center ">
+                Get in Touch with{" "}
+                <h1 className="font-custom  text-xl font-medium">
+                  Bajrang bagri photography
+                </h1>
+                <hr />
               </h1>
               <p className="text-sm ">
                 Interested in a photoshoot? Want to discuss your photography
@@ -222,7 +226,7 @@ const Finalcontact = () => {
                     checked={preWedding}
                     onChange={(event) => setPreWedding(event.target.checked)}
                   />
-                  <label htmlFor="preWedding">pre wedding</label>
+                  <label htmlFor="preWedding">Pre wedding shoot</label>
                 </div>
 
                 <div className="flex items-center gap-2">
@@ -233,7 +237,7 @@ const Finalcontact = () => {
                     checked={postWedding}
                     onChange={(event) => setPostWedding(event.target.checked)}
                   />
-                  <label htmlFor="postWedding">post wedding</label>
+                  <label htmlFor="postWedding">Engagement shoot</label>
                 </div>
 
                 <div className="flex items-center gap-2">
@@ -244,7 +248,7 @@ const Finalcontact = () => {
                     checked={wedding}
                     onChange={(event) => setWedding(event.target.checked)}
                   />
-                  <label htmlFor="wedding">wedding</label>
+                  <label htmlFor="wedding">Wedding shoot</label>
                 </div>
               </div>
               {error.checkbox && (
@@ -284,12 +288,13 @@ const Finalcontact = () => {
               Discover Your Ideal
             </h1>
             <h1 className=" text-white text-xl sm:text-3xl ">
-              WEDDING PHOTOGRAPHER
+              WEDDING PHOTOGRAPHER {":)"}
             </h1>
             <p className="text-white mt-4 sm:text-xl w-fit sm:w-[40rem] lg:w-10/12 ">
-              Share preferences, find perfect wedding photographer. Capture
-              every moment beautifully, tailored to your style and vision. Let's
-              make your day unforgettable
+              Share your preferences with us, and we'll help you find the
+              perfect wedding photographer to capture every moment beautifully.
+              Tailored to your style and vision, let's collaborate to ensure
+              your special day is truly unforgettable.
             </p>
           </div>
         </div>

@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {},
+    fontFamily: {
+      custom: ["Cinzel"],
+    },
     screens: {
       "w-450": "450px",
       sm: "640px",
