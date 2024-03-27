@@ -1,5 +1,5 @@
-import bimg24 from "../subassets/bagris images/New folder/activity 1.jpg";
-import bimg25 from "../subassets/bagris images/New folder/activity 2.jpg";
+// import bimg24 from "../subassets/bagris images/New folder/activity";
+// import bimg25 from "../subassets/bagris images/New folder/activity 2.jpg";
 import bimg26 from "../subassets/bagris images/New folder/activity 3.jpg";
 import bimg27 from "../subassets/bagris images/New folder/activity 4.jpg";
 import bimg28 from "../subassets/bagris images/New folder/activity 5.jpg";
@@ -14,8 +14,8 @@ import bimg36 from "../subassets/bagris images/New folder/wallpaper7.jpg";
 import bimg37 from "../subassets/bagris images/New folder/wallpaper8.jpg";
 
 export const activityImages = [
-  { name: "bimg24", src: bimg24 },
-  { name: "bimg25", src: bimg25 },
+  // { name: "bimg24", src: bimg24 },
+  // { name: "bimg25", src: bimg25 },
   { name: "bimg26", src: bimg26 },
   { name: "bimg27", src: bimg27 },
   { name: "bimg28", src: bimg28 },
